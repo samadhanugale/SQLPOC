@@ -1,8 +1,5 @@
 create database CommentPost;
 use commentpost;
-create database POC3;
-
-use POC3;
 
 create table AUTHOR (AUTHOR_ID INT auto_increment primary key, AUTHOR_NAME VARCHAR(100) not null);
 insert into author (author_name) values ("JAMES BOND");
